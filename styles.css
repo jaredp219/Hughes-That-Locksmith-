@@ -1,0 +1,325 @@
+/* Colours 
+Blue Green - #1A98BE
+Black - #000000
+Silver Metallic - #B0B0B3
+Maize Crayola - #F3CA4F
+Flame - #E85522
+*/
+
+/* Page styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Header */
+
+header {
+    background-color: #B0B0B3;
+}
+
+.flex-header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-header-container div {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.flexbox-1 {
+    flex-basis: 33%;
+}
+
+.flexbox-2 {
+    background-color: rgb(255, 255, 255);
+    flex-basis: 22.5%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.flexbox-2 .ncfe {
+    margin: 1.4em;
+    padding: em;
+}
+
+.flexbox-2 .CG {
+    margin:
+}
+
+.flexbox-3 {
+    flex-basis: 33%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Satisfy', cursive;
+}
+
+.flexbox-3 h4 {
+    font-size: 2.5em;
+    padding: 0.3em;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Satisfy', cursive;
+}
+
+.flexbox-3 span {
+    display: block;
+    text-align: center;
+    font-size: 1.35em;
+}
+
+.logo {
+    width: 165px;
+    height: 220px;
+}
+
+.CG {
+    width: 130px;
+}
+
+.ncfe {
+    width: 100px;
+}
+
+/* Nav section */
+
+nav {
+    text-align: center;
+    background-color: #1A98BE;
+    color: white;
+    padding: 0.7em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.nav-tab {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.4em;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    background-color: #F3CA4F;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    color: #E85522;
+    font-size: 2em;
+}
+/* About Section */
+
+h1 {
+    padding: 1em;
+    font-size: 4.4em;
+    background-color: #E85522;
+    color: white;
+    text-shadow: 5px 1px 1px black;
+    text-align: center;
+    transition: 1s;
+    font-style: italic;
+    font-family: 'Satisfy', cursive;
+}
+
+.why-choose-me {
+    padding: 1em;
+    font-size: 2.3em;
+    background-color: #E85522;
+    color: white;
+    text-shadow: 3px 1px 1px black;
+    font-family: 'Satisfy', cursive;
+}
+
+.about p {
+    padding: 1.5em;
+    font-size: 1.2em;
+}
+
+/* Why Me Section */
+
+.flex-list-and-images-container {
+    display: flex;
+    justify-content: center;
+}
+
+.why-me-images {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+    align-self: center;
+/*    border: 1px solid black;*/
+}
+
+.why-me-images .ncfe {
+    margin-left: 1em;
+    width: 100%;
+}
+
+.why-me-list {
+    margin: 2em;
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 30%;
+    background-color: #B0B0B3;
+    color: white;
+}
+
+.why-me-item {
+    padding: 1em;
+    list-style-type: none;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.2em;
+}
+
+.why-me-item:before {
+    content: '✓';
+    padding: 0.3em;
+}
+
+/* Contact */
+
+.contact {
+    padding: 4em;
+    border: 1px solid black;
+    background-color: #E85522;
+    color: white;
+}
+
+.contact-message {
+    float: left;
+    width: 60%;
+    padding: 1em;
+    text-align: center;
+}
+
+.contact-message p {
+    font-size: 2em;
+}
+
+.contact-heading {
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: underline;
+    padding: 0.3em;
+    
+} 
+
+.contact-numbers {
+    float: left;
+    padding: 1em;
+    width: 40%;
+    text-align: center;
+}
+
+.contact-numbers p {
+    font-size: 2.8em;
+}
+
+/* Form */
+
+form {
+    padding: 5em;
+    text-align: center;
+}
+
+.flex-form-container {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(Images/maria-ziegler-jJnZg7vBfMs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+
+.form-left {
+    flex-basis: 50%;
+    
+}
+
+.form-right {
+    flex-basis: 30%;
+    padding: 5em;
+}
+
+.form-right h3 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.form-right p {
+    text-align: center;
+    font-size: 1.4em;
+    text-decoration: underline;
+    text-shadow: 0.5px 0.1px black;
+    font-style: italic;
+}
+
+input {
+    display: inline-block;
+    padding: 0.6em;
+    margin: 0.2em;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.submit {
+    color: #1A98BE;
+}
+
+.sumbit:hover {
+    color: red;
+}
+
+textarea {
+    display: inline-block;
+    padding: 0.4em;
+    margin: 1em;
+    width: 373px;
+    font-size: 1.6em;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1em;
+    background-color: #B0B0B3;
+    color: white;
+}
+
+footer > * {
+    padding: 0.4em;
+}
+
+.fa {
+    padding: 0.7em;
+    transition: 1s;
+}
+
+.fa:hover {
+    color: white;
+    font-size: 25px;
+}
